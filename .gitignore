@@ -1,0 +1,6 @@
+# psd 파일 전송금지
+**/*.psd
+**/*.eps
+
+# mode_modules 폴더
+**/node_moduls
