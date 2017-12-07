@@ -1,0 +1,37 @@
+/*   파일명   */
+@charset "utf-8";
+/* design */
+#wrap,body{width: 100%; height: 100%;}
+
+#menuBox{width: 20%; min-width: 250px; height: 100%; background-color: #777; float: left; padding: 30px; box-sizing: border-box; position: absolute; left:0; z-index: 500;}
+#menuBox.fixed{position: absolute; left:-200px;}
+  h1{width: 200px; height: 80px; background-color: #c78;}
+  #gnb{width: 85%; height: 70%; margin-top: 30px; float: left; }
+    #gnb>ul{width: 100%; height: 500px;}
+       #gnb>ul>li{width: 100%; height: 40px; color: #fff}
+       #shopMenu{width: 100%; height: 30px; margin-bottom: 270px;}
+        .smallLi_01{margin: 10px;}
+          .smallLi{margin-left: 10px; margin-bottom: 10px;}
+          #menuBtn{width: 40px; height: 40px; background-color:#fca; float: left; position: absolute; top:50vh; margin-top:-20px; left:250px;}
+/* menuBox */
+
+#membership{width: 100%; height: 10vh; min-height: 20px; background-color: #ccc; padding: 10px; box-sizing: border-box;}
+   #unb{width: 100%; height: 60%; margin-top: 15px;}
+    #unb>ul{width: 30%; height: 100%; float: right;}
+     #unb li{width: 15%; height: 100%; background-color: #c55; float: left; margin-left: 30px;}
+/* membership */
+#mainBox{width: 100%; min-height: 600px; height: 80vh; background-color: #aca;}
+#mainBox>ul{width: 300%; height: 100%; background-color: #f56;}
+  #mainBox>ul>li{width: 33.333333%; height: 100%; float: left; text-align: center; line-height: 500px; font-size: 3rem; color:#fff;}
+    #mainBox>ul>li.banner_01{background-color: #0af;}
+    #mainBox>ul>li.banner_02{background-color: #a87;}
+    #mainBox>ul>li.banner_03{background-color: #c3c;}
+
+#leftBtn{width: 100px; height: 100px; background-color: #f55; position: fixed; top:50vh; margin-top: -50px; left:100px; z-index: 100;}
+#rightBtn{width: 100px; height: 100px; background-color: #f55; position: fixed; top:50vh; margin-top: -50px; right:0; z-index: 100;}
+/* mainBox */
+#footBox{width: 100%; min-height: 20px; height: 10vh; background-color: #999; padding: 3px; box-sizing: border-box;}
+/* footBox */
+
+/* last */
+#wrap .last{margin-right: 0;}
